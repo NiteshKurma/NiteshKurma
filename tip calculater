@@ -1,0 +1,13 @@
+#tip calculater
+food_amount = float (input('enter food amount $:'))
+tip_percentage = float(input('enter tip percentage %:'))/ 100 
+tip_amount = food_amount * tip_percentage
+print(tip_amount)
+
+total = food_amount + tip_amount
+print('--------------------------------------------')
+print(f'food_amount : $ { food_amount }')
+print(f'tip amount: $ { tip_amount }')
+print ('\n')
+print(f'total amount: $ { total }')
+print('-------------------------------------------')
